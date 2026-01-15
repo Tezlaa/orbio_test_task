@@ -1,0 +1,108 @@
+{
+  "app_name": "instagram",
+  "metrics": {
+    "average_rating": 2.09,
+    "rating_distribution": {
+      "1": 65.0,
+      "5": 21.0,
+      "2": 6.0,
+      "3": 5.0,
+      "4": 3.0
+    },
+    "total_reviews": 100
+  },
+  "insights": {
+    "sentiment_distribution": {
+      "Neutral": 47,
+      "Positive": 28,
+      "Negative": 25
+    },
+    "negative_common_keywords": [
+      [
+        "account",
+        16
+      ],
+      [
+        "accounts",
+        11
+      ],
+      [
+        "app",
+        6
+      ],
+      [
+        "instagram",
+        6
+      ],
+      [
+        "get",
+        6
+      ],
+      [
+        "reason",
+        6
+      ],
+      [
+        "suspended",
+        5
+      ],
+      [
+        "fix",
+        5
+      ],
+      [
+        "every",
+        4
+      ],
+      [
+        "bad",
+        4
+      ]
+    ],
+    "actionable_insights": [
+      "Common themes in negative reviews: account, accounts, app"
+    ]
+  },
+  "reviews_sample": [
+    {
+      "id": "13622790316",
+      "title": "GIF",
+      "review": "My GIF are gone and got replaced with some wried ones",
+      "rating": 5,
+      "date": "2026-01-11T14:19:19-07:00",
+      "userName": "Sleepykidsleeping"
+    },
+    {
+      "id": "13626390182",
+      "title": ".",
+      "review": "The worst platform I've ever seen in my life, the age limit is 12+, I'm 17 years old, they close my account, when I try to open it, a code doesn't come to my e-mail, my account was closed, I sent my ID, they didn't approve it, I opened 2 new accounts, they closed my account again, if there is an age limit, why does it say 12 + here, it's a disgusting application.",
+      "rating": 1,
+      "date": "2026-01-12T13:33:22-07:00",
+      "userName": "212GNG212"
+    },
+    {
+      "id": "13627120062",
+      "title": "im being spam reported",
+      "review": "ive had instagram since 2016 never had issues up until last month with being spam reported and instagram continues to suspend my account with no evidence each and every time i've become frustrated because instagram is the only form of social media i use to talk to my long distance best friend and family. i wish i could connect a picture to show but i can't but ive just become so tired of whoever is spam reporting my account for \"ab*se, nud!ty, and ch!ld exploitation\" they've figured that spamming that will get my account suspended and instagram needs to fix that.",
+      "rating": 1,
+      "date": "2026-01-12T18:17:58-07:00",
+      "userName": "Tialene"
+    },
+    {
+      "id": "13625436458",
+      "title": "Love it!",
+      "review": "Amazing app",
+      "rating": 5,
+      "date": "2026-01-12T08:03:41-07:00",
+      "userName": "oge2"
+    },
+    {
+      "id": "13625799471",
+      "title": "Takes 5 minutes to share a single story",
+      "review": "This app is completely unusable. Sharing stories takes over 5 minutes to generate the story. Absolutely horrible programming. Your dev team should be fired.",
+      "rating": 1,
+      "date": "2026-01-12T10:01:29-07:00",
+      "userName": "Fractal boi"
+    }
+  ]
+}

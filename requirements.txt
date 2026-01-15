@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pandas
+textblob
+nltk
+aiohttp
+pydantic
+python-multipart
+openai
+pydantic-ai
+pydantic-settings

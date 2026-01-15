@@ -1,0 +1,19 @@
+services:
+    backend:
+        build: .
+        container_name: orbio_backend
+        ports:
+            - "9999:8000"
+        env_file:
+            - .env
+        volumes:
+            - ./src:/app/src
+        command: uvicorn src.main:app --host 0.0.0.0 --port 8000 --reload
+
+    demo:
+        build: ./demo
+        container_name: orbio_demo
+        ports:
+            - "1992:80"
+        depends_on:
+            - backend

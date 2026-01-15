@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Demo App Store Review Analyzer</title>
+    </head>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 20px;
+        }
+    </style>
+    <body>
+        <h1>Demo App Store Review Analyzer</h1>
+
+        <form id="analyzeForm">
+            <label for="password">API Password:</label>
+            <input type="password" id="password" required />
+            <br /><br />
+
+            <label for="appName">App Name:</label>
+            <input
+                type="text"
+                id="appName"
+                placeholder="e.g. instagram"
+                required
+            />
+            <br /><br />
+
+            <label for="appId">App ID (optional):</label>
+            <input type="text" id="appId" />
+            <br /><br />
+
+            <label for="country">Country:</label>
+            <select id="country">
+                <option value="us">United States</option>
+                <option value="gb">United Kingdom</option>
+                <option value="ua">Ukraine</option>
+                <option value="de">Germany</option>
+                <option value="fr">France</option>
+                <option value="ca">Canada</option>
+                <option value="au">Australia</option>
+                <option value="it">Italy</option>
+                <option value="es">Spain</option>
+                <option value="jp">Japan</option>
+                <option value="br">Brazil</option>
+                <option value="cn">China</option>
+                <option value="in">India</option>
+                <option value="nl">Netherlands</option>
+                <option value="pl">Poland</option>
+            </select>
+            <br /><br />
+
+            <label for="count">Count:</label>
+            <input type="number" id="count" value="50" min="1" max="200" />
+            <br /><br />
+
+            <button type="submit">Analyze</button>
+        </form>
+        <br />
+        <button id="downloadBtn" style="display: none">Download CSV</button>
+
+        <hr />
+
+        <div id="loading" style="display: none">Loading...</div>
+        <div id="error" style="color: red"></div>
+
+        <div id="results" style="display: none">
+            <h2>Results</h2>
+
+            <h3>Metrics</h3>
+            <p>Average Rating: <span id="avgRating"></span></p>
+            <p>Total Reviews: <span id="totalReviews"></span></p>
+
+            <h3>Insights</h3>
+            <ul>
+                <li>
+                    Sentiment Distribution: <span id="sentimentDist"></span>
+                </li>
+                <li>
+                    Common Negative Keywords: <span id="negKeywords"></span>
+                </li>
+            </ul>
+            <h4>Actionable Insights:</h4>
+            <ul id="insightsList"></ul>
+
+            <h3>Reviews Sample</h3>
+            <ul id="reviewsList"></ul>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
