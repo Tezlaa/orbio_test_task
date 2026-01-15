@@ -1,5 +1,5 @@
 # Apple Store Review Analysis API
-## DEMO URL: [http://185.233.45.118:1992](http://13.60.31.58:1992/)
+## DEMO URL: http://13.60.31.58:1992/
 
 This project provides a robust API for collecting, processing, and analyzing reviews from the Apple App Store. It is designed to extract actionable insights, such as sentiment distribution and common negative keywords, to help app developers improve their products.
 
